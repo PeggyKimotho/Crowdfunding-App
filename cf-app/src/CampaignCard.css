@@ -1,0 +1,119 @@
+.campaign-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  width: 200px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.campaign-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.campaign-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.campaign-card p {
+  margin: 4px 0;
+  color: #555;
+}
+
+/* Style for the Donate Button */
+.donate-btn {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.donate-btn:hover {
+  background-color: #45a049;
+}
+
+/* Style for the donate modal */
+.donate-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.donate-modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  width: 300px;
+}
+
+.donate-modal-actions {
+  margin-top: 10px;
+}
+
+.donate-modal-actions button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.donate-modal-actions button:hover {
+  background-color: #45a049;
+}
+
+.campaign-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+}
+
+.campaign-image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.campaign-title {
+  font-size: 1.2em;
+  margin: 8px 0;
+}
+
+.campaign-description {
+  font-size: 0.9em;
+  margin: 8px 0;
+}
+
+.campaign-goal,
+.campaign-raised {
+  font-size: 0.9em;
+  margin: 4px 0;
+}
+
+.campaign-address {
+  font-size: 0.8em;
+  color: #555;
+  display: inline-block; /* Keep it inline with the label */
+  overflow: hidden; /* Hide the overflowing text */
+  text-overflow: ellipsis; /* Add ellipsis (...) for overflowed text */
+  white-space: nowrap; /* Prevent text from wrapping */
+  max-width: 100%; /* Set a maximum width */
+  width: 200px; /* Adjust this to control the maximum width before truncation */
+}
