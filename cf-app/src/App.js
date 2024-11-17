@@ -135,9 +135,9 @@ const App = () => {
                 onChange={handleInputChange}
                 required
               ></textarea>
-              <label>Goal</label>
+              <label>Goal (in BTC)</label>
               <input
-                type="text"
+                type="number"
                 name="goal"
                 value={newCampaign.goal}
                 onChange={handleInputChange}
@@ -145,10 +145,11 @@ const App = () => {
               />
               <label>Image</label>
               <input
-                type="text"
+                type="url"
                 name="image"
                 value={newCampaign.image}
                 onChange={handleInputChange}
+                placeholder="https://example.com/image.jpg"
                 required
               />
               <label>Address</label>
