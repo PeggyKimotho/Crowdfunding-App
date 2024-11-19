@@ -149,7 +149,6 @@ const App = () => {
                 name="image"
                 value={newCampaign.image}
                 onChange={handleInputChange}
-                placeholder="https://example.com/image.jpg"
                 required
               />
               <label>Address</label>
